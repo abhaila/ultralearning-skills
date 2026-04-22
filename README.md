@@ -68,6 +68,8 @@ These skills are built around the nine principles from the book:
 
 ## Install
 
+### Claude Code
+
 ```bash
 # Clone the repo
 git clone https://github.com/YOUR_USERNAME/ultralearning-skills.git ~/.local/share/ultralearning-skills
@@ -80,6 +82,16 @@ ln -s ~/.local/share/ultralearning-skills/ultralearning-metalearning ~/.claude/s
 ```
 
 Each skill must be a direct child of `~/.claude/skills/` for Claude Code to discover it.
+
+### Claude Cowork
+
+Upload each skill folder directly through the Cowork Skills interface:
+
+1. Open Claude Cowork and go to **Settings → Skills**
+2. Click **Add skill** and upload each skill folder (`ultralearning-plan`, `ultralearning-checkin`, `ultralearning-metalearning`, `ultralearning-review`)
+3. Cowork reads the `SKILL.md` inside each folder automatically
+
+Once installed, reference a skill by name in any Cowork session — e.g. "use the ultralearning-plan skill to help me start a project".
 
 ---
 
@@ -121,6 +133,7 @@ The hook only activates for ultralearning project documents (those with `ultrale
 
 ## Typical Workflow
 
+**Claude Code** (slash commands):
 ```
 /ultralearning-plan          → produce project doc + calendar .ics
   └── /ultralearning-metalearning  (optional deep-dive)
@@ -131,6 +144,19 @@ The hook only activates for ultralearning project documents (those with `ultrale
 [at end of project]
 /ultralearning-review        → close project doc, plan what's next
   └── /ultralearning-plan    (if choosing Mastery path)
+```
+
+**Claude Cowork** (natural language):
+```
+"Use ultralearning-plan to help me design a project"
+  └── "Run a metalearning session for [topic]"  (optional deep-dive)
+
+[each week during project]
+"Use ultralearning-checkin for my [topic] project"
+
+[at end of project]
+"Use ultralearning-review to close my [topic] project"
+  └── "Use ultralearning-plan to start the next project"
 ```
 
 ---

@@ -1,6 +1,6 @@
 ---
 name: ultralearning-metalearning
-description: Run a focused metalearning research session for a specific topic. Use when starting an ultralearning project and wanting to map out the learning landscape before diving in — what to learn, in what order, with which resources, and using which methods. Typically used as a deep-dive step within planning, or standalone when the topic is complex.
+description: Deep metalearning research session for a specific topic. Maps the learning landscape — concepts, facts, procedures, resources, and methods — before committing to a project. Use for complex topics or as a standalone deep-dive.
 ---
 
 # Ultralearning Metalearning Session

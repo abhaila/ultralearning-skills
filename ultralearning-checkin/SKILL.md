@@ -1,6 +1,6 @@
 ---
 name: ultralearning-checkin
-description: Run a weekly check-in on an active ultralearning project. Evaluates schedule adherence, reviews approach against the nine ultralearning principles, assesses progress toward goal, and updates the project document. Use this every week during execution.
+description: Weekly check-in on an active ultralearning project. Reviews schedule adherence, evaluates approach against the nine principles, assesses progress toward goal, and updates the project document.
 ---
 
 # Ultralearning Weekly Check-In
@@ -177,6 +177,6 @@ After the check-in, update `ultralearning-[topic].md`:
 - This is a reflective conversation, not an interrogation. Keep the tone warm and curious.
 - The most common failure mode is passive consumption masquerading as learning. Probe for this.
 - Don't let the user be vague about what they'll do differently. Push for specific commitments.
-- If the project document doesn't exist, offer to run `/ultralearning-plan` to create it, or capture enough from the conversation to write a minimal version.
+- If the project document doesn't exist, offer to use the ultralearning-plan skill (`/ultralearning-plan` in Claude Code) to create it, or capture enough from the conversation to write a minimal version.
 - A check-in where nothing changes is fine if things are going well — don't invent problems.
-- If the user has completely abandoned the project for 2+ weeks, gently surface that fact and help them decide: restart, adjust, or formally close and run `/ultralearning-review`.
+- If the user has completely abandoned the project for 2+ weeks, gently surface that fact and help them decide: restart, adjust, or formally close and use the ultralearning-review skill (`/ultralearning-review` in Claude Code).

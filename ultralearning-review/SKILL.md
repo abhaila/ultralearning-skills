@@ -1,6 +1,6 @@
 ---
 name: ultralearning-review
-description: Conduct an end-of-project review for a completed ultralearning project. Captures what went well, what didn't, evaluates success against the original goal, and plans what happens next — mastery, maintenance, or relearning. Updates and closes the project document.
+description: End-of-project review for a completed ultralearning project. Captures what went well and what didn't, evaluates success against the original goal, and plans what's next: mastery, maintenance, or relearning.
 ---
 
 # Ultralearning Project Review
@@ -110,7 +110,7 @@ Choose this if:
 - Should this be a new ultralearning project, or a different mode of practice?
 - If a new project, what did you learn about your approach that you'll apply immediately?
 
-Offer to run `/ultralearning-plan` to start the next project.
+Offer to use the ultralearning-plan skill (`/ultralearning-plan` in Claude Code) to start the next project.
 
 ### Option 2: Maintenance — Keep the Skill Fresh
 
@@ -204,4 +204,4 @@ Update `ultralearning-[topic].md` with the review:
 - If the user is being hard on themselves, help them see concrete evidence of progress before moving to criticism.
 - If the user is being too easy on themselves ("it went great!"), gently probe for what actually stuck vs. what felt good in the moment.
 - The "what's next" decision is the most consequential part. Don't let it be vague — a maintenance plan without a specific activity and frequency won't be followed.
-- If they choose mastery, offer to immediately start `/ultralearning-plan` for the next project.
+- If they choose mastery, offer to immediately start the ultralearning-plan skill (`/ultralearning-plan` in Claude Code) for the next project.

@@ -1,6 +1,6 @@
 ---
 name: ultralearning-plan
-description: Design a complete ultralearning project plan. Use when the user wants to learn something new and wants a structured, high-intensity approach. Guides through topic selection, scope, schedule, metalearning research, and materials — then produces a project document they can save and track.
+description: Design a complete ultralearning project plan. Guides through topic selection, scope, schedule, metalearning research, and materials — produces a project document to track throughout.
 ---
 
 # Ultralearning Project Planner
@@ -271,7 +271,7 @@ end_date: [date]
 
 ## Weekly Check-ins
 
-*(Use `/ultralearning-checkin` each week)*
+*(Run a weekly check-in with the ultralearning-checkin skill — `/ultralearning-checkin` in Claude Code)*
 
 | Week | Schedule met? | Approach changes | On track? |
 |------|--------------|-----------------|-----------|
@@ -292,4 +292,4 @@ end_date: [date]
 - If the user's scope is too vague, push back gently and help them narrow it. "Learn programming" is not an ultralearning project.
 - If the schedule sounds like "whenever I can find time," help them realize this usually means never. Guide them to block specific times.
 - The goal of metalearning is to figure out *how* to learn the subject, not to learn the subject itself. Don't let the user get lost in research — timebox it.
-- The project document is a living document. It will be updated by `/ultralearning-checkin` and `/ultralearning-review`.
+- The project document is a living document. It will be updated by the ultralearning-checkin skill (weekly) and the ultralearning-review skill (at end) — invoked as `/ultralearning-checkin` and `/ultralearning-review` in Claude Code.
