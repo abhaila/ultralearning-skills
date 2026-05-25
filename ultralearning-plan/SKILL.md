@@ -32,6 +32,7 @@ Ask the user:
 1. **What do they want to learn?** Let them brain-dump freely — it's fine if there are multiple things on the list.
 2. **Why do they want to learn it?** Instrumental (to accomplish something else) or intrinsic (for its own sake)?
 3. **How much time do they have?** Both total duration (weeks/months) and hours per week.
+4. **Output format?** Ask: "Would you like the project document saved as Markdown (`.md`) or a styled HTML page (`.html`)?" Default to Markdown if they have no preference.
 
 Don't rush this. These answers shape everything downstream.
 
@@ -210,7 +211,9 @@ Before wrapping up, do an honest gut-check:
 
 ## Output: Project Document
 
-At the end of the planning session, write a project document and save it as `ultralearning-[topic].md` in the current directory.
+At the end of the planning session, write a project document and save it as `ultralearning-[topic].md` (or `ultralearning-[topic].html` if the user chose HTML) in the current directory.
+
+**If HTML was chosen:** Generate a self-contained `.html` file with inline CSS — same sections and content as the markdown template below, adapted to HTML. Include a styled header, tables with zebra striping, and highlighted callouts for key notes. No external dependencies; the file must be readable without a network connection.
 
 ```markdown
 ---

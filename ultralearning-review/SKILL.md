@@ -11,7 +11,7 @@ Guide the user through a thorough end-of-project retrospective. This is both a l
 
 ## Before You Start
 
-1. Find the project document — look for `ultralearning-[topic].md` in the current directory.
+1. Find the project document — look for `ultralearning-[topic].md` or `ultralearning-[topic].html` in the current directory. Note the file format; the review must be appended in the same format.
 2. Read it fully: the original goal, schedule, resources, weekly check-ins, and project log.
 3. If no document exists, ask the user to describe the project before starting.
 
@@ -150,7 +150,7 @@ The goal is to leave a "breadcrumb trail" for your future self — a note on how
 
 ## Output: Closed Project Document
 
-Update `ultralearning-[topic].md` with the review:
+Update the project document (`.md` or `.html`, whichever format was detected in "Before You Start") with the review:
 
 1. Change the frontmatter status: `status: complete` (or `status: abandoned` if stopped early)
 2. Add a `completed` date to the frontmatter

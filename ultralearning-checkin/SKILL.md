@@ -14,7 +14,7 @@ Guide the user through a structured weekly review of their active ultralearning 
 Find the project document. Ask:
 
 1. "Which ultralearning project are you checking in on?"
-2. Look for `ultralearning-[topic].md` in the current directory. If found, read it to understand the project — goal, schedule, resources, and previous check-ins.
+2. Look for `ultralearning-[topic].md` or `ultralearning-[topic].html` in the current directory. If found, read it to understand the project — goal, schedule, resources, and previous check-ins. Note the file format; all updates must be written in the same format.
 3. If no file is found, ask the user to describe the project briefly so you can run the check-in.
 
 Also ask: "What week of the project is this?"
@@ -143,7 +143,7 @@ If motivation has dropped significantly:
 
 ## Update the Project Document
 
-After the check-in, update `ultralearning-[topic].md`:
+After the check-in, update the project document (`.md` or `.html`, whichever format was detected in "Before You Start"). Apply the same content in the appropriate format:
 
 1. Fill in the weekly check-in row in the table:
    ```

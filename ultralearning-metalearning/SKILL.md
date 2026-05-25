@@ -17,6 +17,7 @@ Ask:
 1. "What subject or skill are you mapping?"
 2. "How long is your planned project?" (to calibrate how much metalearning time is appropriate)
 3. "What do you already know about this subject?" (don't research things you already understand well)
+4. "Would you like the output saved as Markdown (`.md`) or a styled HTML page (`.html`)?" Default to Markdown if no preference.
 
 ---
 
@@ -161,7 +162,9 @@ Beyond resources, help the user identify the key methods they'll use:
 
 ## Output: Metalearning Map
 
-At the end of the session, write a metalearning section to add to (or create) the project document `ultralearning-[topic].md`:
+At the end of the session, write a metalearning section to add to (or create) the project document `ultralearning-[topic].md` (or `ultralearning-[topic].html` if the user chose HTML).
+
+**If HTML was chosen:** Generate or update a self-contained `.html` file with inline CSS — same sections and content as the markdown template below, adapted to HTML. Include a styled header, the three-column map as a table, resource survey as a table, and a highlighted callout for the key insight. No external dependencies.
 
 ```markdown
 ## Metalearning Map
